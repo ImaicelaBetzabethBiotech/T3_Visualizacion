@@ -1,5 +1,7 @@
 # T3_Visualizacion
-![logo-ikiam-1](https://user-images.githubusercontent.com/117690624/226083336-b68d5401-4f98-4037-81e9-99c22372a291.png)
+
+
+(https://user-images.githubusercontent.com/117690624/226083336-b68d5401-4f98-4037-81e9-99c22372a291.png)
 
 
 **DATOS DEL CURSO**
