@@ -1,8 +1,7 @@
+
+![Logo Ikiam](https://user-images.githubusercontent.com/117690624/216197208-5a012835-3638-44dc-9358-34ed3d63457a.png)
+
 # T3_Visualizacion
-
-
-(https://user-images.githubusercontent.com/117690624/226083336-b68d5401-4f98-4037-81e9-99c22372a291.png)
-
 
 **DATOS DEL CURSO**
 - Curso: Rstudio
