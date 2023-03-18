@@ -1,6 +1,6 @@
 # T3_Visualizacion
 
-C:\Users\MISHELL\Downloads\logo-ikiam-1.png
+![logo-ikiam-1](https://user-images.githubusercontent.com/117690624/226083313-fcda02c1-1c67-4b0e-9bb0-31ab53a7488c.png
 
 **DATOS DEL CURSO**
 - Curso: Rstudio
