@@ -1,6 +1,6 @@
 # T3_Visualizacion
+![logo-ikiam-1](https://user-images.githubusercontent.com/117690624/226083336-b68d5401-4f98-4037-81e9-99c22372a291.png)
 
-![logo-ikiam-1](https://user-images.githubusercontent.com/117690624/226083313-fcda02c1-1c67-4b0e-9bb0-31ab53a7488c.png
 
 **DATOS DEL CURSO**
 - Curso: Rstudio
