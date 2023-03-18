@@ -1,0 +1,53 @@
+---
+title: "T3_Visualizacion"
+author: "Betzabeth Imaicela"
+date: "2023-03-17"
+output: html_document
+---
+
+# library
+
+```{r, message=FALSE}
+
+#install.packages("ggplot2)
+#install.packages("RCur1")
+#install.packages("dplyr")
+#install.packages("readr")
+#install.packages("ggrepel")
+library(ggplot2)
+library(RCurl)
+library(dplyr)
+library(readr)
+library(ggrepel)
+
+```
+
+
+## 2. Réplica de la figura embebida
+
+```{r}
+
+ruta <- "https://raw.githubusercontent.com/martintinch0/CienciaDeDatosParaCuriosos/master/data/gapminder.csv"
+
+gapminder <- read.table(file = ruta, sep=';', header = TRUE, stringsAsFactors = FALSE)
+gdata <- gapminder[gapminder$year==2007, ]
+
+g <- ggplot(gdata, aes(x=gdpPercap, y=lifeExp, label=country)) + 
+geom_point(aes(col=continent, size=)) + 
+theme_classic() +
+   labs(title = "Esperanza de vida debido al ingreso promedio - 2007",x = "Ingreso Promedio (USD)",y = "Expectativa de vida al nacer (anios)")
+
+relevancia_paises <- 50 # países más relevantes
+
+g <- g + geom_text_repel(data = gdata[gdata$pop > quantile(gdata$pop, 1 - relevancia_paises/length(gdata$pop)),],
+aes(label = country), size = 2, box.padding = unit(0.5, "lines"), force = 1, segment.size = .1, segment.color = 'grey', max.iter = 100)
+
+
+g
+  
+
+```
+
+
+
+
